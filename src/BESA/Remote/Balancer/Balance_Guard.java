@@ -30,11 +30,11 @@ public class Balance_Guard extends PeriodicGuardBESA {
 
     //Guarda la carga del agente con mas carga a la hora de balancear
     private long cargaMaxima;
-    
+
     //Guarda el alias del agente con mas carga
     private String agenteSeleccionado;
 
-     /**
+    /**
      * Calcula periodicamente la carga del contenedor y mira si paso el maximo
      */
     @Override
@@ -44,7 +44,7 @@ public class Balance_Guard extends PeriodicGuardBESA {
         estado.setContenedores(new ArrayList<String>());
         long maxload = estado.getMax();
         long carga = 0;
-        
+
         //Se obtiene el ThreadMXBean para saber el uso de CPU
         ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
 
@@ -52,15 +52,15 @@ public class Balance_Guard extends PeriodicGuardBESA {
         for (Long threadID : threadMXBean.getAllThreadIds()) {
             carga = carga + threadMXBean.getThreadCpuTime(threadID);
         }
-        
+
         /*Se actualiza la carga del contenedor restando el nuevo valor con
         *el anterior para tener la carga en el periodo de tiempo establecido
-        */
+         */
         estado.setLoad(carga - estado.getLoad());
 
         /*Se mira si la carga actual supera la carga maxima que deberia 
         *tener el contenedor
-        */
+         */
         if (estado.getLoad() > maxload) {
             //Se suspende el llamado periodico mientras el balanceo
             this.suspendPeriodicCall();
@@ -70,8 +70,9 @@ public class Balance_Guard extends PeriodicGuardBESA {
         }
     }
 
-     /**
-     * Inicia el balanceo de carga calculando las cargas y buscando el contenedor
+    /**
+     * Inicia el balanceo de carga calculando las cargas y buscando el
+     * contenedor
      */
     public void iniciarBalanceo() {
 
@@ -80,7 +81,7 @@ public class Balance_Guard extends PeriodicGuardBESA {
 
         /*Se calculan las cargas dos veces con un delay de 10 segundos para
         * tener un valor reciente de la carga del agente
-        */
+         */
         calcularCargas();
         delay(10);
         calcularCargas();
@@ -92,39 +93,38 @@ public class Balance_Guard extends PeriodicGuardBESA {
 
     }
 
-     /**
+    /**
      * Calcula la carga de cada uno de los agentes
      */
     public void calcularCargas() {
-
         Ag_Balancer_State estado = (Ag_Balancer_State) this.agent.getState();
         Map<String, Long> cargas = new HashMap<>();
         ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
         Long carga;
-        /*Para cada uno delos agentes en el mapa se van a ver los hilos asociados
-        * para mirar la carga
-        */
+
+        // Para cada uno de los agentes en el mapa se van a ver los hilos asociados para mirar la carga
         for (Map.Entry<String, ArrayList<Long>> entry : estado.getThreadsIDs().entrySet()) {
-            carga = new Long(0);
+            carga = 0L;
             for (Long l : entry.getValue()) {
-                carga = carga + threadMXBean.getThreadCpuTime(l);
+                carga += threadMXBean.getThreadCpuTime(l);
             }
-            //Si el agente aun no estaba se agrega
+
+            // Si el agente aún no estaba, se agrega
             if (cargas.containsKey(entry.getKey())) {
-                carga = carga - cargas.get(entry.getKey());
+                carga -= cargas.get(entry.getKey());
                 cargas.replace(entry.getKey(), carga);
             } else {
                 cargas.put(entry.getKey(), carga);
             }
+
             // Se mira si es el agente con mayor carga para asignarlo
             if (carga > cargaMaxima) {
                 cargaMaxima = carga;
                 agenteSeleccionado = entry.getKey();
             }
-
         }
-        estado.setAgentsLoads(cargas);
 
+        estado.setAgentsLoads(cargas);
     }
 
     private static void delay(int i) {
@@ -135,7 +135,7 @@ public class Balance_Guard extends PeriodicGuardBESA {
         }
     }
 
-     /**
+    /**
      * Busca los contenedores a los cuales se le enviara la solicitud
      */
     public void buscarContenedores() {
@@ -155,7 +155,6 @@ public class Balance_Guard extends PeriodicGuardBESA {
         Ag_Balancer_State estado = (Ag_Balancer_State) this.agent.getState();
 
         // @TODO: calcular contenedor prometedor
-        
         //Se obtienen los contenedores y se agregan a la lista
         List<String> listContainers = new ArrayList<>();
         while (enumContainers.hasMoreElements()) {
@@ -170,7 +169,7 @@ public class Balance_Guard extends PeriodicGuardBESA {
         enviarSolicitud(dataAgent);
     }
 
-     /**
+    /**
      * Envia los eventos de balanceo
      */
     public void enviarSolicitud(Data_Agent dataAgent) {
