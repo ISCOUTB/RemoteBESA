@@ -59,10 +59,10 @@
                 </dependency>
                 <dependency>
                     <groupId>io.github.iscoutb</groupId>
-                    <artifactId>local-besa</artifactId>
+                    <artifactId>local-besa-simple</artifactId>
                     <version>3.5</version>
                     <scope>system</scope>
-                    <systemPath>${project.basedir}/../LocalBESA/target/local-besa-3.5.jar</systemPath>
+                    <systemPath>${project.basedir}/../LocalBESA/target/local-besa-simple-3.5.jar</systemPath>
                 </dependency>
             </dependencies>
         </profile>
@@ -87,7 +87,7 @@
                 </dependency>
                 <dependency>
                     <groupId>io.github.iscoutb</groupId>
-                    <artifactId>local-besa</artifactId>
+                    <artifactId>local-besa-simple</artifactId>
                     <version>3.5</version>
                 </dependency>
             </dependencies>
