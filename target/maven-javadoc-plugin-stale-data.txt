@@ -1,0 +1,57 @@
+-Xdoclint:none
+@options
+@packages
+-classpath
+'C:/Users/jairo/Proyectos/simulador/RemoteBESA/../KernelBESA/target/kernel-besa-3.5.1.jar;C:/Users/jairo/Proyectos/simulador/RemoteBESA/../LocalBESA/target/local-besa-3.5.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/jairo/Proyectos/simulador/RemoteBESA/src;C:/Users/jairo/Proyectos/simulador/RemoteBESA/target/generated-sources/annotations'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/jairo/Proyectos/simulador/RemoteBESA/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'RemoteBESA 3.5 API'
+-use
+-version
+-windowtitle
+'RemoteBESA 3.5 API'
+BESA.Remote
+BESA.Remote.Balancer
+BESA.Remote.Directory
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\..\KernelBESA\target\kernel-besa-3.5.1.jar = 1757471806660
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\..\LocalBESA\target\local-besa-3.5.jar = 1757471866160
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\src = 1757471632897
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\generated-sources\annotations = 1757471962827
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\allclasses-index.html = 1757471967325
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\allpackages-index.html = 1757471967328
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\constant-values.html = 1757471967208
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\copy.svg = 1757471967373
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\element-list = 1757471967168
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\help-doc.html = 1757471967366
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\index-all.html = 1757471967357
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\index.html = 1757471967306
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\link.svg = 1757471967374
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\member-search-index.js = 1757471967334
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\module-search-index.js = 1757471967329
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\overview-summary.html = 1757471967362
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\overview-tree.html = 1757471967302
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\package-search-index.js = 1757471967331
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\script.js = 1757471967371
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\search-page.js = 1757471967378
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\search.html = 1757471967361
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\search.js = 1757471967376
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\serialized-form.html = 1757471967219
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\stylesheet.css = 1757471967369
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\tag-search-index.js = 1757471967336
+C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\type-search-index.js = 1757471967332
