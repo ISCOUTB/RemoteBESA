@@ -508,7 +508,7 @@ public class RemoteAdmBESA extends LocalAdmBESA {
     /**
      * This method made a CheckPoint
      *
-     * @autor Jairo Serrano
+     * @author Jairo Serrano
      */
     @Override
     public synchronized void executeCheckpoint() {
@@ -548,7 +548,7 @@ public class RemoteAdmBESA extends LocalAdmBESA {
     /**
      * This method activate CheckPoint System
      *
-     * @autor Jairo Serrano
+     * @author Jairo Serrano
      */
     @Override
     public synchronized void activateCheckpoint() {
@@ -576,7 +576,7 @@ public class RemoteAdmBESA extends LocalAdmBESA {
     /**
      * This class execute Recurrent CheckPoint
      *
-     * @autor Jairo Serrano
+     * @author Jairo Serrano
      */
     class recurrentCheckpoint extends TimerTask {
 
@@ -591,7 +591,7 @@ public class RemoteAdmBESA extends LocalAdmBESA {
     /**
      * This method deactivate CheckPoint System
      *
-     * @autor Jairo Serrano
+     * @author Jairo Serrano
      */
     @Override
     public synchronized void deactivateCheckpoint() {

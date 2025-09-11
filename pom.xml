@@ -7,7 +7,7 @@
 
     <groupId>io.github.iscoutb</groupId>
     <artifactId>remote-besa</artifactId>
-    <version>3.5</version>
+    <version>3.6.0</version>
     <packaging>jar</packaging>
 
     <name>RemoteBESA</name>
@@ -55,14 +55,14 @@
                     <artifactId>kernel-besa</artifactId>
                     <version>3.5.1</version>
                     <scope>system</scope>
-                    <systemPath>${project.basedir}/../KernelBESA/target/kernel-besa-3.5.1.jar</systemPath>
+                    <systemPath>${project.basedir}/../KernelBESA/target/kernel-besa-3.6.0.jar</systemPath>
                 </dependency>
                 <dependency>
                     <groupId>io.github.iscoutb</groupId>
                     <artifactId>local-besa-simple</artifactId>
                     <version>3.5</version>
                     <scope>system</scope>
-                    <systemPath>${project.basedir}/../LocalBESA/target/local-besa-simple-3.5.jar</systemPath>
+                    <systemPath>${project.basedir}/../LocalBESA/target/local-besa-simple-3.6.0.jar</systemPath>
                 </dependency>
             </dependencies>
         </profile>
@@ -95,7 +95,7 @@
     </profiles>
 
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
