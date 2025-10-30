@@ -1,24 +1,24 @@
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Directory\AgRemoteHandlerBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\PingThread.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Ag_Balancer.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\PongSocketThread.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Directory\RemoteDirectoryBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Answers_Guard.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Requests_Guard.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Directory\RemoteAdmHandlerBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\BalancerBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\DistributedInitBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\AdmRemoteImpBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\PongThread.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Balance_Guard.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\PingSocketThread.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Update_Guard.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Ag_Balancer_State.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\DistributedExceptionBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Directory\DistributedDirectoryExceptionBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\RemoteAdmBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\AdmRemoteInterfaceBESA.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\SocketServer.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\SocketServerThread.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Data_Agent.java
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java\BESA\Remote\Balancer\Data_Request.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\DistributedInitBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\PingSocketThread.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\BalancerBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Directory\RemoteDirectoryBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\RemoteAdmBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Ag_Balancer_State.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Requests_Guard.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Data_Request.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\SocketServerThread.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Directory\AgRemoteHandlerBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Balance_Guard.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Data_Agent.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Directory\DistributedDirectoryExceptionBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\SocketServer.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\PingThread.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\PongSocketThread.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\AdmRemoteImpBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\DistributedExceptionBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\PongThread.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Ag_Balancer.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Answers_Guard.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Directory\RemoteAdmHandlerBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\AdmRemoteInterfaceBESA.java
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java\BESA\Remote\Balancer\Update_Guard.java

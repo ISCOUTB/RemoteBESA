@@ -2,14 +2,14 @@
 @options
 @packages
 -classpath
-'C:/Users/jairo/Proyectos/simulador/RemoteBESA/../KernelBESA/target/kernel-besa-3.6.0.jar;C:/Users/jairo/Proyectos/simulador/RemoteBESA/../LocalBESA/target/local-besa-simple-3.6.0.jar'
+'C:/Users/Andres/.m2/repository/io/github/iscoutb/kernel-besa/3.6.0/kernel-besa-3.6.0.jar;C:/Users/Andres/.m2/repository/io/github/iscoutb/local-besa-simple/3.6.0/local-besa-simple-3.6.0.jar'
 -encoding
 'UTF-8'
 -protected
 -source
 '21'
 -sourcepath
-'C:/Users/jairo/Proyectos/simulador/RemoteBESA/src/main/java;C:/Users/jairo/Proyectos/simulador/RemoteBESA/target/generated-sources/annotations'
+'C:/Users/Andres/OneDrive - Universidad Tecnológica de Bolívar/Documentos/BESA-REPOS/RemoteBESA/src/main/java;C:/Users/Andres/OneDrive - Universidad Tecnológica de Bolívar/Documentos/BESA-REPOS/RemoteBESA/target/generated-sources/annotations'
 -Xdoclint:none
 -author
 -bottom
@@ -17,7 +17,7 @@
 -charset
 'UTF-8'
 -d
-'C:/Users/jairo/Proyectos/simulador/RemoteBESA/target/apidocs'
+'C:/Users/Andres/OneDrive - Universidad Tecnológica de Bolívar/Documentos/BESA-REPOS/RemoteBESA/target/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
@@ -29,29 +29,23 @@
 BESA.Remote
 BESA.Remote.Balancer
 BESA.Remote.Directory
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\..\KernelBESA\target\kernel-besa-3.6.0.jar = 1757555043652
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\..\LocalBESA\target\local-besa-simple-3.6.0.jar = 1757556681765
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\src\main\java = 1757556431375
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\generated-sources\annotations = 1757556691513
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\allclasses-index.html = 1757556695788
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\allpackages-index.html = 1757556695790
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\constant-values.html = 1757556695673
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\copy.svg = 1757556695837
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\element-list = 1757556695636
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\help-doc.html = 1757556695828
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\index-all.html = 1757556695819
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\index.html = 1757556695769
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\link.svg = 1757556695838
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\member-search-index.js = 1757556695795
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\module-search-index.js = 1757556695792
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\overview-summary.html = 1757556695824
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\overview-tree.html = 1757556695766
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\package-search-index.js = 1757556695793
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\script.js = 1757556695835
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\search-page.js = 1757556695841
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\search.html = 1757556695822
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\search.js = 1757556695840
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\serialized-form.html = 1757556695684
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\stylesheet.css = 1757556695834
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\tag-search-index.js = 1757556695797
-C:\Users\jairo\Proyectos\simulador\RemoteBESA\target\apidocs\type-search-index.js = 1757556695794
+C:\Users\Andres\.m2\repository\io\github\iscoutb\kernel-besa\3.6.0\kernel-besa-3.6.0.jar = 1761617823384
+C:\Users\Andres\.m2\repository\io\github\iscoutb\local-besa-simple\3.6.0\local-besa-simple-3.6.0.jar = 1761618134168
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\src\main\java = 1761616962636
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\generated-sources\annotations = 1761618229828
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\allclasses-index.html = 1761618236380
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\allpackages-index.html = 1761618236385
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\constant-values.html = 1761618236193
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\element-list = 1761618236141
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\help-doc.html = 1761618236463
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\index-all.html = 1761618236443
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\index.html = 1761618236354
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\member-search-index.js = 1761618236400
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\module-search-index.js = 1761618236389
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\overview-summary.html = 1761618236455
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\overview-tree.html = 1761618236348
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\package-search-index.js = 1761618236391
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\search.html = 1761618236450
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\serialized-form.html = 1761618236207
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\tag-search-index.js = 1761618236403
+C:\Users\Andres\OneDrive - Universidad Tecnológica de Bolívar\Documentos\BESA-REPOS\RemoteBESA\target\apidocs\type-search-index.js = 1761618236395
